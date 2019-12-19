@@ -1,48 +1,48 @@
-//nVampeta 
+//nRonnieVon
 (function ($) {
 
-    var self = $.nVampeta = new function () { };
+    var self = $.nRonnieVon = new function () { };
 
     $.extend(self, {
 
-        nVampetaBackgrounds: [
-            'http://www.away.com.br/nvampeta/bg1.png'
+        nRonnieVonBackgrounds: [
+            'https://imgur.com/K1Qgweu.png'
         ],
 
-        nVampetaImgs: [
-            'https://i.imgur.com/meT1G7T.jpg',
-            'https://i.imgur.com/scpspdR.jpg',
-            'https://i.imgur.com/097JazL.jpg',
-            'https://i.imgur.com/8CzMjuC.jpg',
-            'https://i.imgur.com/wSDz4VJ.jpg',
-            'https://i.imgur.com/B8tOwat.jpg',
-            'https://i.imgur.com/TVmRwJ4.jpg',
-            'https://i.imgur.com/CM1nPI8.jpg',
-            'https://i.imgur.com/xhcfSst.jpg',
-            'https://i.imgur.com/rangHmZ.jpg',
-            'https://i.imgur.com/edVhcjS.jpg',
-            'https://i.imgur.com/WdPhUqm.jpg',
-            'https://i.imgur.com/n1BBZlf.jpg',
-            'https://i.imgur.com/xIEoPac.jpg',
-            'https://i.imgur.com/yy3DwnX.gif',
-            'https://i.imgur.com/hd0BUJm.jpg',
-            'https://i.imgur.com/HE4dSil.jpg',
-            'https://i.imgur.com/A3JJUut.jpg',
-            'https://i.imgur.com/i4XKBvD.jpg',
-            'https://i.imgur.com/XveMAVe.jpg',
-            'https://i.imgur.com/epuUjge.jpg',
-            'https://i.imgur.com/IT1VLti.jpg',
-            'https://i.imgur.com/l412AZq.jpg',
-            'https://i.imgur.com/sPdWGaK.jpg',
-            'https://i.imgur.com/PQ3bg1q.jpg',
-            'https://i.imgur.com/DeQ0qo3.jpg',
-            'https://i.imgur.com/wFi3HXs.jpg',
-            'https://i.imgur.com/PCm1v57.jpg',
-            'https://i.imgur.com/Oxs2AHZ.jpg',
-            'https://i.imgur.com/SKKwYtQ.jpg',
-            'https://i.imgur.com/rfSvENU.jpg',
-            'https://i.imgur.com/qguMH00.jpg',
-            'https://i.imgur.com/4Jh46kV.jpg'
+        nRonnieVonImgs: [
+            'https://imgur.com/xquyo8o.jpg',
+            'https://imgur.com/TnJrRPH.jpg',
+            'https://imgur.com/cNnA0WK.jpg',
+            'https://imgur.com/xpTe33R.jpg',
+            'https://imgur.com/PZ82D71.jpg',
+            'https://imgur.com/KGicqpe.jpg',
+            'https://imgur.com/iobfwOj.jpg',
+            'https://imgur.com/hOQHKIE.jpg',
+            'https://imgur.com/FeU7zqg.jpg',
+            'https://imgur.com/GYo4Cxg.jpg',
+            'https://imgur.com/xDBeCkb.jpg',
+            'https://imgur.com/hewkaDy.jpg',
+            'https://imgur.com/3TVYniv.jpg',
+            'https://imgur.com/JpiY4vF.jpg',
+            'https://imgur.com/6MneaOC.gif',
+            'https://imgur.com/H8DvgUh.jpg',
+            'https://imgur.com/vJcxUsm.jpg',
+            'https://imgur.com/rEgIh1n.jpg',
+            'https://imgur.com/9Y1bwkD.jpg',
+            'https://imgur.com/ct1modO.jpg',
+            'https://imgur.com/G6sSybS.jpg',
+            'https://imgur.com/TwQqYkz.jpg',
+            'https://imgur.com/Wu9X7MB.jpg',
+            'https://imgur.com/XEQMsAN.jpg',
+            'https://imgur.com/sQK3pOe.jpg',
+            'https://imgur.com/royzpzr.jpg',
+            'https://imgur.com/3yoxFWL.jpg',
+            'https://imgur.com/F2VKR1g.jpg',
+            'https://imgur.com/AKB68Tv.jpg',
+            'https://imgur.com/y1dOy0G.jpg',
+            'https://imgur.com/ab9wXRj.jpg',
+            'https://imgur.com/Sq2P0uQ.jpg',
+            'https://imgur.com/AOFshIr.jpg'
         ],
 
         handleImages: function (lstImgs, time) {
@@ -103,7 +103,7 @@
 
     //Run on jQuery ready
     $(function () {
-        self.handleImages(self.nVampetaImgs, 3000);
-        self.handleLogo(self.nVampetaBackgrounds, 3000);
+        self.handleImages(self.nRonnieVonImgs, 3000);
+        self.handleLogo(self.nRonnieVonBackgrounds, 3000);
     });
 })(jQuery);
